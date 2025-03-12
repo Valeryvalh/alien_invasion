@@ -24,7 +24,7 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         # Create an instance to store game statistics,
-        # and create a scoreboard.
+        # and create a scoreboard...
         self.stats = GameStats(self)
         self.sb = Scoreboard(self)
 
